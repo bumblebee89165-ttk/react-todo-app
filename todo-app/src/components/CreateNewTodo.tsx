@@ -14,7 +14,12 @@ export const CreateNewTodo = (
     } : CreateNewTodoProps) => {
     return (
     <div>
-        <TextField label="Outlined" variant="outlined" size="small" value={inputValue} onChange={handleInputChange}/>
+        <TextField 
+            label="Outlined" 
+            variant="outlined" 
+            size="small" 
+            style={{marginRight: '8px'}}
+            value={inputValue} onChange={handleInputChange}/>
         <Button variant="contained" onClick={handleAddTodo}>Thêm</Button>
     </div>
   )
