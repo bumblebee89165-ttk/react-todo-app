@@ -161,6 +161,12 @@ URL sẽ dạng: `https://user.github.io/todo-list/#/about`
 
 Tạo file để tự động deploy khi push code:
 
+# Tạo thư mục
+mkdir .github\workflows -Force
+
+# Tạo file (copy code bên dưới vào)
+New-Item .github\workflows\deploy.yml
+
 ```yaml
 name: Deploy to GitHub Pages
 
