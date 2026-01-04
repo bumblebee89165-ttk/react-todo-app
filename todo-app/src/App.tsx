@@ -54,7 +54,7 @@ function  App() {
 
   return (
     <>
-      <p>Todo App</p>
+      <p>Khang Todo App</p>
       <CreateNewTodo inputValue={inputValue} handleInputChange={handleInputChange} handleAddTodo={handleAddTodo}/>
       <TodoList todos={todos} updateIsCompleted={updateIsCompleted}/>
     </>
